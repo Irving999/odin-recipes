@@ -1,0 +1,88 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #423E37;
+}
+
+body {
+    background-color:seashell;
+}
+
+a {
+    display: block;
+    padding-top: 10px;
+    padding-right: 20px;
+    text-align: right;
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+    margin: 10px auto;
+    align-items: center;
+}
+
+.description h2,
+.instructions h2 {
+    margin: 5px;
+}
+
+.recipe-content {
+    margin-left: 50px;
+}
+
+.description {
+    margin-bottom: 10px;
+}
+
+.description p
+{
+    line-height: 30px;
+
+}
+
+.middle {
+    margin: 30px 50px;
+}
+
+img {
+    height: 400px;
+    width: auto;
+    box-shadow: 2px 2px 15px black;
+}
+
+.image-container {
+    display: inline;
+    
+}
+
+.ingredients {
+    display: inline-block;
+    margin-left: 30px;
+    border: 3px #B02E0C solid;
+    box-shadow: 1px 1px 5px black;
+}
+
+.ingredients h2 {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    margin: 10px
+}
+
+ol,
+ul,
+.description p {
+    padding-left: 30px;
+}
+
+ol li {
+    margin: 8px
+}
